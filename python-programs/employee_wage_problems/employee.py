@@ -1,7 +1,7 @@
 import random
 
 print("WELCOME TO EMPLOYEE WAGE COMPUTATION!!!!")
-#Function to check the attendance of the employee and paramters
+#Function to check the attendance of the employee and parameters
 def Check_Attendance():
     attendace = random.randint(0,2)
     if attendace == 0:
@@ -12,7 +12,7 @@ def Check_Attendance():
         print("Partime Employee is Present")
     return attendace
 
-#Calculating the wage of the employee and partimers
+#Calculating the wage of the employee and parameters
 def calculate_wage():
     attendance = Check_Attendance()
     match attendance:
