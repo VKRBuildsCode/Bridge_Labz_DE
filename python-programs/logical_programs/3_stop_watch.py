@@ -1,13 +1,7 @@
-import time as sp
-time=0
-def stopwatch():
+import time
 
-    sp.sleep(1)
-    time
-    pass
-def stop_stopwatch():
-    pass
-start=input("Enter .... To start stop watch")
-start_stopwatch()
-stop=input("Enter ... To end stop watch")
-stop_stopwatch()
+
+def stop_watch():
+    print("Start stopwatch")
+    start_time=time.time()
+    end_time=time.time()
