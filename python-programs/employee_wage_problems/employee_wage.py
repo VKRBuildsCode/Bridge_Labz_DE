@@ -18,7 +18,7 @@ def calculate_wage():
     match attendance:
         case 1:
             wage = 20 * 8
-            print(f"Wage of the Employee is: {wage}")
+            print(f"Wage of the Employee is : {wage}")
         case 2:
             wage = 20 * 4
             print(f"Wage of the Partime Employee is: {wage}")
