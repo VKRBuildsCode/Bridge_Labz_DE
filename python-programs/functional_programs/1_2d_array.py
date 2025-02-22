@@ -1,4 +1,4 @@
-
+#this function takes rows and columns as input and print the 2d_array
 def print_2d_array(rows,columns):
     array=[]
     print(f"Enter the values of the 2d array ,with {rows} rows and {columns} columns")
@@ -11,4 +11,5 @@ def print_2d_array(rows,columns):
     print(array)
 rows=int(input("Enter the number of rows : "))
 columns=int(input("Enter the number of columns : "))
+#calling function here
 print_2d_array(rows,columns)
