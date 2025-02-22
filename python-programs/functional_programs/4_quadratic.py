@@ -1,4 +1,4 @@
-
+#Finding  roots of quadratic equation
 def find_roots(a,b,c):
     delta = (b * b) - 4 * a * c
     Root_1x = (-b + delta ** 0.5) / 2 * a
@@ -7,4 +7,6 @@ def find_roots(a,b,c):
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
 c=int(input("Enter third number"))
+
+#Calling function here
 find_roots(a,b,c)
