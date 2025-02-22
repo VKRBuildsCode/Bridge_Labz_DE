@@ -28,8 +28,6 @@ def check_winner(symbol):
 def is_draw():
     """Checks if the board is full (game is a draw)."""
     return all(board[i][j] != ' ' for i in range(3) for j in range(3))
-
-
 def player_move():
     """Takes user input and marks 'X' in the chosen cell."""
     while True:
@@ -52,12 +50,9 @@ def computer_move():
             board[row][col] = 'O'
             print(f"Computer placed 'O' at ({row + 1}, {col + 1})")
             break
-
-
 # Main game loop
 print("Welcome to Tic-Tac-Toe! You are 'X' and the computer is 'O'.")
 print_board()
-
 while True:
     # Player move
     player_move()
@@ -68,7 +63,6 @@ while True:
     if is_draw():
         print("It's a draw!")
         break
-
     # Computer move
     computer_move()
     print_board()
