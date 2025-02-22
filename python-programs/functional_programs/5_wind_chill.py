@@ -1,6 +1,4 @@
-
-
-
+#Wind chill function
 def wind_chill(t,v):
     wc = 35.74 + (0.6215 * t) - 35.75*(v ** 0.16) + 0.4275 * t * (v ** 0.16)
     return  wc
