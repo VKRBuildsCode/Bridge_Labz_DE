@@ -1,5 +1,6 @@
 import random as rm
 
+#Function to flip_coins
 def  flip_coins():
     heads=0
     tails=0
@@ -23,4 +24,5 @@ def  flip_coins():
         print("Try again .....")
         flip_coins()
     pass
+#Calling Function here
 flip_coins()
