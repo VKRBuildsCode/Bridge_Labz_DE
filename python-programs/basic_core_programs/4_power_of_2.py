@@ -8,6 +8,6 @@ def print_power_of_2():
         #Dictionary comprehension
         result={print(f"2^{i}:{2**i}") for i in range(1,num+1)}
 
-
     pass
+#Calling function here
 print_power_of_2()
