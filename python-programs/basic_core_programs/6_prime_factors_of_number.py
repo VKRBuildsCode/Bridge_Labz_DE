@@ -1,5 +1,6 @@
 prime_factors=[]
 product=[]
+#primary logic of prime factor goes here
 def is_prime(num):
     i=2
     while i*i<=num:
@@ -33,4 +34,5 @@ def get_number():
         print(e)
         print("Try again ....")
         get_number()
+#Calling of function here
 get_number()
