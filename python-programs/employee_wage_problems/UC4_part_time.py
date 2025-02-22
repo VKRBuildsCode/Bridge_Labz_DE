@@ -1,5 +1,4 @@
 from random import random
-
 print("WELCOME TO EMPLOYEE WAGE COMPUTATION!!!!")
 #Function to check the attendance of the employee and parameters
 def Check_Attendance():
