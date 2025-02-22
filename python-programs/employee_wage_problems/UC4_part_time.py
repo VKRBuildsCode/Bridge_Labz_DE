@@ -10,7 +10,6 @@ def Check_Attendance():
     else:
         print("Partime Employee is Present")
     return attendace
-
 #Calculating the wage of the employee and parameters
 def calculate_wage():
     attendance = Check_Attendance()
